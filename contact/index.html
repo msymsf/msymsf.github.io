@@ -537,8 +537,8 @@
 
                 <script type="text/javascript">
                     AV.init({
-                        appId: 'xxxxxxxx',
-                        appKey: 'xxxxxxx'
+                        appId: 'FglMkRxQHcCEo0B9kRdOEGG9-9Nh9j0Va',
+                        appKey: 'HnNnmH3oA9zWXDROdU3uuACz'
                     });
 
                     $(function() {
@@ -977,7 +977,7 @@ gitment.render('gitment-content');
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             
-                <span id="year">2019-2022</span>
+                <span id="year">2022</span>
             
             <a href="/about" target="_blank">孟书宇</a>
             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
@@ -1032,10 +1032,6 @@ gitment.render('gitment-content');
     </a>
 
 
-
-    <a href="https://weibo.com/xxx" class="tooltipped" target="_blank" data-tooltip="关注我的微博: https://weibo.com/xxx" data-position="top" data-delay="50">
-        <i class="fab fa-weibo"></i>
-    </a>
 
 
 
@@ -1201,6 +1197,16 @@ $(function () {
     
 
     <!-- 鼠标星星特效 -->
+    
+    <script type="text/javascript">
+      // 只在桌面版网页启用特效
+      var windowWidth = $(window).width();
+      if (windowWidth > 768) {
+        document.write(
+          '<script type="text/javascript" src="/libs/others/star.js"><\/script>'
+        );
+      }
+    </script>
       <!-- Baidu Analytics -->
  <!-- Baidu Push -->
 
